@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?gsi3u0');
+  src:  url('fonts/icomoon.eot?gsi3u0#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gsi3u0') format('truetype'),
+    url('fonts/icomoon.woff?gsi3u0') format('woff'),
+    url('fonts/icomoon.svg?gsi3u0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: green;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tiktok:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.social-icons {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 15px;
+  justify-content: center; 
+}
+
+.icon-box {
+  width: 25px; /* Tamaño del cuadro */
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f8f3; /* Color de fondo */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: all 0.3s ease-in-out;
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+.icon-box:hover {
+  background-color: #d4e8d1; /* Cambio de color al pasar el mouse */
+}
+
+.icon-box span {
+  font-size: 15px; 
+  color: #237a2e; 
+}
+
+
+.fa-solid {
+  font-size: 40px;
+  color: #98c93c;
+  margin-bottom: 10px;
+}
