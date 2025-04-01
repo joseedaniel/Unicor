@@ -196,3 +196,132 @@ footer {
 .pdf-viewer {
     margin-top: 10px;
 }
+
+.estudiantes_text{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top:10px;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.column {
+    width: 45%;
+    background: white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.imagen_asp {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 35%;
+    padding: 12px 20px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: darkgreen;
+}
+
+.text_tramites{
+    font-size: 15px;
+    color: black;
+    margin-left: 50%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top:10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.tramites-list{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #f5f5f5;
+}
+
+.text_preguntas{
+    font-size: 15px;
+    color: black;
+    margin-left: 50%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top:10px;
+    margin-left: 10px;
+    text-align: center;
+}
+.accordion {
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid #ddd;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion input {
+    display: none;
+}
+
+.accordion-label {
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.accordion-label:hover {
+    background-color: #e0e0e0;
+}
+
+.accordion-label::before {
+    content: "❓";
+    margin-right: 10px;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    padding: 0 15px;
+    background-color: white;
+}
+
+.accordion input:checked ~ .accordion-content {
+    max-height: 500px;
+    padding: 15px;
+}
+
+.par1{
+    text-align: center;
+}
+
+.par2{
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #f5f5f5;
+}
