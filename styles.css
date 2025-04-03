@@ -80,10 +80,6 @@ body {
     max-width: 150px;
 }
 
-/* Iconos */
-
-
-/* Números */
 .number {
     font-size: 24px;
     font-weight: bold;
@@ -91,7 +87,6 @@ body {
     margin: 5px 0;
 }
 
-/* Descripción */
 .description {
     font-size: 14px;
     color: black;
